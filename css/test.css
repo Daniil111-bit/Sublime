@@ -1,0 +1,41 @@
+/* Test */
+.p-l-2{
+    padding-left: 46px;
+}
+.test-inner{
+    background-color: #000;
+    padding-top: 38px;
+    padding-bottom: 96px;
+}
+.test-text-blok-card-img{
+    width: 121px;
+    height: 121px;
+    box-shadow: 0 0 0 3px #ffa800;
+    border-radius: 100%;
+    background: url(../img/test-man.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 23px;
+}
+.test-text-blok{
+    display: flex;
+    align-items: center;
+    padding-left: 92px;
+}
+.test-text-blok-text{
+    transform: translate(0%, -16%);
+}
+.test-text-blok-text-title, .test-text-blok-text-subtitle{
+    color: #fff;
+    max-width: 625px;
+}
+.test-text-blok-text-title{
+    margin-bottom: 19px;
+}
+.test-text-blok-text-card-name, .test-text-blok-text-card-job{
+    text-align: center;
+    color: #fff;
+}
+.test-text-blok-card{
+    transform: translate(70%, -20%);
+}

@@ -1,0 +1,52 @@
+/* Team */
+
+.team-inner{
+    display: flex;
+    padding-top: 83px;
+    background-color: #fff;
+    padding-bottom: 146px;
+}
+.team-cards-blok{
+}
+.width{
+    width: 348px;
+}
+.team-cards-blok-title, .team-cards-blok-subtitle{
+    max-width: 628px;
+}
+.team-cards-blok-title{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 17px;
+}
+.team-cards-blok-subtitle{
+    font-size: 14px;
+    color: #595959;
+    margin-bottom: 32px;
+}
+
+
+
+.team-cards-blok-cards{
+    margin: 0 -10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.team-cards-blok-cards-wrapper{
+    width: 25%;
+    padding: 0 10px;
+}
+.team-cards-blok-cards-item img{
+    width: 100%;
+}
+.team-cards-blok-cards-item-img{
+    margin-bottom: 10px;
+}
+.team-cards-blok-cards-item-name{
+    font-weight: 700;
+}
+.team-cards-blok-cards-item-name, .team-cards-blok-cards-item-job{
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}

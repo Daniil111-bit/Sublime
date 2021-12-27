@@ -1,0 +1,48 @@
+.game-cards{
+    background-color: #000e15;
+
+}
+.game-cards-inner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding-bottom: 82px;
+}
+.game-cards-inner-center{
+    max-width: 998px;
+    display: flex;
+}
+.game-card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 33.33333%;
+    padding: 0 26px;
+}
+
+.game-card-img{
+    content: "";
+    width: 53px;
+    height: 53px;
+    border-radius: 100%;
+    background: url(../img/gamepad.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #e8e8e8;
+    box-shadow: 0 0 0 2px #ffa800;
+    margin-bottom: 21px;
+}
+.game-card-title{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 16px;
+}
+.game-card-text{
+    font-size: 10px;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: "semiboldit";
+}

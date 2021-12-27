@@ -1,0 +1,42 @@
+/* Joker */
+.joker{
+    background-color: #000e15;
+}
+.c-white{
+    color: #fff;
+    padding-bottom: 25px;
+}
+.joker-inner{
+    background: url(../img/joker-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 29px;
+    padding-bottom: 55px;
+}
+.joker-cards-blok, .joker-cards-blok-2{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 145px;
+    text-align: right;
+}
+.joker-cards-blok-2 .joker-card-item{
+    margin-bottom: 0;
+}
+.joker-cards-inner{
+    text-align: RIGHT;
+}
+.joker-card-item{
+    text-align: left;
+    max-width: 228px;
+    margin: 0 34px 70px 53px;
+}
+.joker-card-item-title{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.joker-card-item-text{
+    font-size: 11px;
+    color: #fff;
+}
